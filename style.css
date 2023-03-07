@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.welcome{
+    /* border: 2px solid violet; */
+    height: 100vh;
+    background-image: url("./Images/mediamodifier-7cERndkOyDw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.topnav a:hover{
+    background-color: #0D0D0D;
+    color: white;
+}
+.topnav a {
+    float: right;
+    color:#003840 ;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+
+}
+#text{
+    text-align: center;
+    font-size: 30px;
+    /* font-family:'Courier New', Courier, monospace; */
+    margin-top: 38px;
+    color:#0D0D0D;
+    padding-top: 70px;
+}
+#header{
+    text-align: center;
+    color:#0D0D0D;
+}
+#Ordernow{
+    border: 3px solid #003840;
+    padding:10px 38px;
+    border-radius: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color:#003840;
+    /* text-align: center; */
+    /* background-color: #003840; */
+}
+#Ordernow:hover{
+    background-color: #003840;
+    color: white;
+
+}
+.Ordernow{
+    margin-top: 15%;
+    text-align: center;
+}
+.Secontainer{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 300px; */
+    /* width: 300px; */
+}
+.dress >img{
+    padding-top: 100px;
+    width: 400px;
+}
+#text1{
+    text-align: center;
+    padding-top: 40px;
+    color: #003840;
+    font-size: 40px;
+}
+.thirdcontainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Bags >img{
+    width: 400px;
+    padding-top: 200px;
+}
+#text2{
+    text-align: center;
+    padding-top: 80px;
+    color:#003840;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border-bottom: 2px  #0D0D0D; */
+}
+.fourthcont{
+    display: flex;
+    justify-content: space-between;
+}
+.Shoes >img{
+    width: 300px;
+    padding-top: 120px;
+}
+#text3{
+    text-align: center;
+    padding-top: 70px;
+    color:#0D0D0D;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#par{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #003840;
+}
+.finish{
+    height: 50vh;
+    padding-bottom: 180px;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content:space-evenly;
+}
+/* .last{
+    display: flex;
+} */
+#text5{
+    color:white;
+}
+#txt2{
+    color:white;
+}
+#txt3{
+    color:white;
+}
+
+/* .Dresses{ */
+    /* border: 3px solid blue; */
+    /* height: 100vh; */
+
+
+/* .shoes{
+    border: 2px solid green;
+    height: 100vh;
+} */
