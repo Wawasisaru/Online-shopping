@@ -33,14 +33,15 @@
     color:#0D0D0D;
     padding-top: 70px;
 }
-#header{
+#heading{
     text-align: center;
     color:#0D0D0D;
+    /* margin-top: 30px; */
 }
 #Ordernow{
     border: 3px solid #003840;
-    padding:10px 38px;
-    border-radius: 60px;
+    padding:15px 55px;
+    border-radius: 80px;
     font-weight: bolder;
     text-decoration: none;
     color:#003840;
@@ -66,11 +67,32 @@
     padding-top: 100px;
     width: 400px;
 }
+#now{
+    border: 3px solid #003840;
+    padding:10px 38px;
+    border-radius: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color:#003840;
+    /* text-align: center; */
+    /* background-color: #003840; */
+}
+#now:hover{
+    background-color: #003840;
+    color: white;
+
+}
+.now{
+    margin-top: 5%;
+    text-align: center;
+}
 #text1{
     text-align: center;
     padding-top: 40px;
     color: #003840;
     font-size: 40px;
+    border-bottom: 2px solid black;
+    /* padding-bottom: 10px; */
 }
 .thirdcontainer{
     display: flex;
@@ -79,7 +101,7 @@
 }
 .Bags >img{
     width: 400px;
-    padding-top: 200px;
+    padding-top: 70px;
 }
 #text2{
     text-align: center;
@@ -89,6 +111,22 @@
     font-family: 'Courier New', Courier, monospace;
     /* border-bottom: 2px  #0D0D0D; */
 }
+#order{
+    border: 3px solid #003840;
+    padding:10px 38px;
+    border-radius: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color:#003840;
+}
+.order{
+    margin-top: 5%;
+    text-align: center;
+}
+#order:hover{
+    background-color: #003840;
+    color: white;
+}
 .fourthcont{
     display: flex;
     justify-content: space-between;
@@ -96,6 +134,10 @@
 .Shoes >img{
     width: 300px;
     padding-top: 120px;
+}
+.number{
+    font-size: 25px;
+    color: #003840;
 }
 #text3{
     text-align: center;
@@ -110,12 +152,36 @@
     font-size: 30px;
     color: #003840;
 }
+#orderme{
+    border: 3px solid #003840;
+    padding:10px 38px;
+    border-radius: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+    color:#003840;
+}
+.orderme{
+    margin-top: 5%;
+    text-align: center;
+}
+#orderme:hover{
+    background-color: #003840;
+    color: white;
+}
 .finish{
     height: 50vh;
     padding-bottom: 180px;
     background-color: #0D0D0D;
     display: flex;
-    justify-content:space-evenly;
+    /* justify-content:space-evenly; */
+}
+.last{
+    padding-right: 90px;
+    margin: 10px;
+}
+.smaller{
+    padding-top: 90px;
+    /* margin: 50px; */
 }
 /* .last{
     display: flex;
@@ -127,6 +193,9 @@
     color:white;
 }
 #txt3{
+    color:white;
+}
+#txt4{
     color:white;
 }
 
